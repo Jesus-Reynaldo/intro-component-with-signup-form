@@ -1,0 +1,23 @@
+{
+  "name": "intro-component-with-signup-form-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Intro component with sign up form coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jesus-Reynaldo/intro-component-with-signup-form.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jesus-Reynaldo/intro-component-with-signup-form/issues"
+  },
+  "homepage": "https://github.com/Jesus-Reynaldo/intro-component-with-signup-form#readme",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}

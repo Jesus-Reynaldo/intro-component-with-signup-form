@@ -27,16 +27,41 @@
           Try it free 7 days then $20/mo. thereafter
         </button>
         <form action="#" class="formulario">
-          <input
-            type="text"
-            id="name"
-            class="formulario-input"
-            placeholder="First Name"
-          />
-          <label for="last-name"></label>
-          <input type="text" id="last-name" placeholder="Last Name" />
-          <input type="email" id="email" placeholder="Email Address" />
-          <input type="password" id="password" placeholder="Password" />
+          <div class="section" id="name-section">
+            <input
+              type="text"
+              id="name"
+              class="formulario-input"
+              placeholder="First Name"
+              name="First name"
+            />
+            <!-- <img src="images/icon-error.svg" alt="error" class="error-icon" /> -->
+            <!-- <span class="error">First name cannot be empty</span> -->
+          </div>
+          <div class="section" id="last-section">
+            <input
+              type="text"
+              id="last-name"
+              placeholder="Last Name"
+              name="Last Name"
+            />
+          </div>
+          <div class="section" id="email-section">
+            <input
+              type="email"
+              id="email"
+              placeholder="Email Address"
+              name="Email Address"
+            />
+          </div>
+          <div class="section" id="password-section">
+            <input
+              type="password"
+              id="password"
+              placeholder="Password"
+              name="Password"
+            />
+          </div>
           <button type="submit" id="submitBtn" class="btn-green">
             Claim your free trial
           </button>
@@ -59,4 +84,5 @@
       </p>
     </footer>
   </body>
+  <script src="js/index.js"></script>
 </html>

@@ -42,12 +42,14 @@ button {
   border-radius: 10px;
   border: none;
 }
+button:hover {
+  cursor: pointer;
+}
 
 input {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   padding: 1.5em 2.25em;
-  margin-bottom: 1.5rem;
   border-radius: 5px;
   color: hsl(249deg, 10%, 26%);
   border: solid 1px hsl(246deg, 25%, 77%);
@@ -89,6 +91,33 @@ span {
   text-transform: uppercase;
   border-bottom: solid 3px #2dae76;
 }
+.form-container .formulario .btn-green:hover {
+  background-color: #61d6a3;
+}
+.form-container .formulario .section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+  width: 100%;
+  margin-bottom: 1.93rem;
+}
+.form-container .formulario .section .error {
+  padding: 0.5em 0;
+  display: inline-block;
+  font-size: 0.63em;
+  text-align: right;
+  font-style: italic;
+}
+.form-container .formulario .section .error-icon {
+  position: absolute;
+  right: 5%;
+  top: 20%;
+}
+.form-container .formulario .section span {
+  margin-top: 0.1em;
+  font-size: 0.7em;
+}
 .form-container .formulario p {
   color: hsl(246deg, 25%, 77%);
   font-size: 0.6rem;
@@ -98,6 +127,17 @@ span {
 .form-container .btn-blue {
   background-color: hsl(248deg, 32%, 49%);
   box-shadow: 0 10px #ff6666;
+}
+.form-container .btn-blue:hover {
+  background-color: #7e75b8;
+}
+
+.email-color::placeholder {
+  color: hsl(0deg, 100%, 74%);
+}
+
+.border-color {
+  border: solid 2px hsl(0deg, 100%, 74%);
 }
 
 /*# sourceMappingURL=index.css.map */

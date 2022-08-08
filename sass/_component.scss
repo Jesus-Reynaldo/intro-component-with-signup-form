@@ -25,6 +25,33 @@
       background-color: global.$green;
       text-transform: uppercase;
       border-bottom: solid 3px darken(global.$green, 8%);
+      &:hover {
+        background-color: color.adjust(global.$green, $lightness: 10%);
+      }
+    }
+    .section {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      position: relative;
+      width: 100%;
+      margin-bottom: 1.93rem;
+      .error {
+        padding: 0.5em 0;
+        display: inline-block;
+        font-size: 0.63em;
+        text-align: right;
+        font-style: italic;
+      }
+      .error-icon {
+        position: absolute;
+        right: 5%;
+        top: 20%;
+      }
+      span {
+        margin-top: 0.1em;
+        font-size: 0.7em;
+      }
     }
     p {
       color: global.$grayish-blue;
@@ -36,5 +63,16 @@
   .btn-blue {
     background-color: global.$blue;
     box-shadow: 0 10px darken(global.$red, 4%);
+    &:hover {
+      background-color: color.adjust(global.$blue, $lightness: 10%);
+    }
   }
+}
+.email-color {
+  &::placeholder {
+    color: global.$red;
+  }
+}
+.border-color {
+  border: solid 2px global.$red;
 }

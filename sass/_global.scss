@@ -1,4 +1,6 @@
+@use "sass:color";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
 $red: hsl(0, 100%, 74%);
 $green: hsl(154, 59%, 51%);
 $blue: hsl(248, 32%, 49%);
@@ -45,12 +47,14 @@ button {
   padding: 1.5em;
   border-radius: 10px;
   border: none;
+  &:hover {
+    cursor: pointer;
+  }
 }
 input {
   font-family: Poppins, sans-serif;
   font-weight: 600;
   padding: 1.5em 2.25em;
-  margin-bottom: 1.5rem;
   border-radius: 5px;
   color: $dark-blue;
   border: solid 1px $grayish-blue;
