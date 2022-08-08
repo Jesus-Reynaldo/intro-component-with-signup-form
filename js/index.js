@@ -52,7 +52,7 @@ function styleEmail(element) {
 function addErrorIcon(element) {
   const img = document.createElement("img");
   img.classList.add("error-icon");
-  img.src = "../images/icon-error.svg";
+  img.src = "images/icon-error.svg";
   img.alt = "Error";
   element.appendChild(img);
 }
